@@ -1,10 +1,12 @@
 import './App.css'
-import Resume from './assets/jgokhale_resume.png'
+
+// Import styles
+import Resume from './assets/jgokhale_resume.pdf'
 
 function App() {
   return (
-    <object data={Resume} type="image/png" width="100%" height="100%" />
-  )
+    <iframe src={Resume} width="100%" height="100%" style={{border: "none", top: 0, left: 0, position: "absolute"}}></iframe>
+  );
 }
 
-export default App
+export default App;

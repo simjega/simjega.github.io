@@ -1,0 +1,364 @@
+%!TEX TS-program = xelatex
+% -*- program: xelatex -*-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Jay Gokhale /Resume
+% XeLaTeX Template
+% Version 1.0 (11/25/2014)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Jay Gokhale (http://www.debarghyadas.com)
+% With extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Use US Letter paper, change to a4paper for A4
+\documentclass[letterpaper]{simjega-resume}
+
+\begin{document}
+
+%-------------------------------------------------------------------------------
+% TITLE SECTION
+%-------------------------------------------------------------------------------
+
+% \lastupdated % Print the Last Updated text at the top right
+
+\jgheader{Jay Gokhale}{ % Your name
+\href{mailto:gokhale.jay@gmail.com}{gokhale.jay@gmail.co} | 408.771.5590 | github.com/simjega | linkedin.com/in/jaygokhale}
+
+%-------------------------------------------------------------------------------
+% LEFT COLUMN
+%-------------------------------------------------------------------------------
+% The left column takes up 33% of the text width of the page
+%\begin{minipage}[t]{0.33\textwidth}
+
+%{\footnotesize \textit{\textbf{(Teaching Asst) }}} \textbullet{}
+%Aerospace Engineering Capstone
+%Undergraduate TA for engineering design
+
+%-------------------------------------------------------------------------------
+
+%\end{minipage} % The end of the left column
+%\hfill
+%
+%-------------------------------------------------------------------------------
+% RIGHT COLUMN
+%-------------------------------------------------------------------------------
+%
+% The right column takes up 66% of the text width of the page
+%\begin{minipage}[t]{0.66\textwidth}
+
+%------------------------------------------------
+% Experience
+%------------------------------------------------
+\section{Experience}
+\jgsectionline
+
+\experiencesubsection{\includegraphics[scale=0.3]{logos/mogara_logo.png}}
+{Co-Founder / CTO}
+{Bay Area, CA}
+{November 2022 - September 2023}
+{Python / AWS / Terraform / React}
+{\begin{tightitemize}
+\item[] Built a platform to help companies automate a complex enterprise accounting process (software capitalization).
+\item[] Built entire stack from ground up (frontend, backend, infrastructure)
+\item[] Created a flexible modular system that allowed easy customization of accounting rules in order to support a wide variety of use cases.
+\end{tightitemize}}
+
+\experiencesubsection{\includegraphics[scale=0.05]{logos/stripe_logo_trimmed.png}}
+{Senior Backend / API Engineer}
+{San Francisco, CA / Remote}
+{March 2018 - October 2022}
+{Ruby, Sinatra, Python, Elasticsearch}
+{\begin{tightitemize}
+\item[] Introduced grouping mechanism for related accounts relied upon by many internal teams (datascience / risk / sales etc..)
+\item[] Built and launched multi-account (organization) search in the Stripe dashboard
+\item[] Significantly reduced re-signup friction by enabling reuse of previously entered business information.
+\item[] Increased reliability of Stripe's most critical payment flows by introducing eventually consistent reads of stable information
+\item[] Mentored multiple interns and new engineers
+\end{tightitemize}}
+
+% Title Of job, Location, Dates, Title of position, list, languages used
+\experiencesubsection{\includegraphics[scale=0.18]{logos/index_logo_trimmed.png}}
+{Data / Backend Engineer}
+{San Francisco, CA}
+{July 2015 - March 2018}
+{Java, Python, S3, Redshift, Lambda, EMR, Spark}
+{\begin{tightitemize}
+\item[] Scaled Index's email service to handle sending 45K emails per minute
+\item[] Designed and created a tool that serves large transactional queries in <1 second
+\item[] Created a multi-thread scheduler for periodic and one-off jobs
+\item[] Worked on client facing marketing tools including a new A/B testing framework and an improved recommendation engine
+\item[] Built features around Twilio / Facebook / Mailgun API's
+\end{tightitemize}}
+
+\experiencesubsection{\includegraphics[scale=0.18]{logos/numenta_logo.png}}
+{Algorithms Intern and Benchmark Consultant}
+{Redwood City, CA}
+{Jun 2014 - Dec 2014}
+{Python, Javascript, HTML, CSS}
+{\begin{tightitemize}
+\item[] Contributed extensively to implementation of a streaming anomaly detection benchmark
+\href{https://github.com/Numenta/NAB}{\bf (link)}
+\end{tightitemize}}
+
+%------------------------------------------------
+
+% \experiencesubsection{RASCAL Lab}
+% {Graduate Researcher}
+% {Davis, CA}
+% {Jun 2013 - June 2015}
+% {Python, C, Java, Matlab, Android}
+% {\begin{tightitemize}
+% \item[] Improved RASCAL's predictive gesture recognition system with
+% +10\% accuracy and +30\% speed
+% \end{tightitemize}}
+
+% %------------------------------------------------
+
+% \experiencesubsection{IEL Lab}
+% {Graduate Researcher}
+% {Davis, CA}
+% {Sep 2012 - Jun 2013}
+% {C, C++}
+% {\begin{tightitemize}
+% \item[] Designed  modular robot connectibity system / prototype motion tracking vision system
+% \end{tightitemize}}
+
+%------------------------------------------------
+% Skills
+%------------------------------------------------
+
+\section{Skills}
+\jgsectionline
+\skillssubsection{Languages}
+{
+% Languages
+Java,
+Python,
+C,
+C++,
+JavaScript,
+% HTML,
+% CSS,
+% Assembly,
+% Scheme,
+% Fortran,
+% Matlab,
+% Octave
+% R,
+% Latex
+}
+
+\skillssubsection{Technologies}
+{
+%Statistical Tools
+% Numpy,
+% Scipy,
+% Scikit-learn,
+% Pandas,
+% WEKA
+%Databases
+MongoDB,
+AWS (Redshift, S3, EMR, Lambda),
+Presto,
+Spark,
+PostgreSQL,
+MySQL,
+React,
+%Platforms
+% Android,
+% CUDA,
+% Rails,
+
+%Robotics
+% ROS,
+% VREP,
+% Gazebo,
+% OpenCV
+%Environments
+% Linux,
+% Mac
+}
+
+%Misc
+%JIRA
+%
+
+%------------------------------------------------
+% Projects
+%------------------------------------------------
+
+\section{Projects}
+\jgsectionline
+% Title, Location, Dates, List, LanguagesUsed
+
+% \projectsubsection{Domain Robust Chair Detector}
+% {Davis, CA}
+% {Sep 2014 - Jun 2015}
+% {Matlab, C, Python}
+% {\begin{tightitemize}
+% \item[] A chair detector that can detect chairs in both natural images and 3D CAD images
+% \end{tightitemize}}
+
+
+%------------------------------------------------
+
+% \projectsubsection{Automated Compiler Bug Finder}
+% {Davis, CA}
+% {Mar 2014 - Jun 2014}
+% {C++, C, Python}
+% {\begin{tightitemize}
+% \item[] Used LLVM intermediate representation and abstract syntax tree of many C programs to generate trivially equivalent programs
+% \item[] A bug is found if the output of all the equivalent programs is not the same
+% \end{tightitemize}}
+
+
+%------------------------------------------------
+
+% \projectsubsection{Pilot - Numenta's Nupic Hackathon 2013}
+% {San Francisco, CA}
+% {Nov 2013}
+% {Python}
+% {\begin{tightitemize}
+% \item[] Successfully created an AI to control a physical quadcopter using Numenta's Cortical Learning Algorithm
+% \end{tightitemize}}
+
+
+%------------------------------------------------
+
+\projectsubsection{Autonomous Taxi Scheduler}
+{Davis, CA}
+{} % {Mar 2013 - Jun 2013}
+{C, C++}
+{\begin{tightitemize}
+\item[] Tested the feasibility and efficiency of a scheduling system for a fleet of autonomous taxis in a dense city
+\end{tightitemize}}
+
+%------------------------------------------------
+
+\projectsubsection{Genetic Algorithm to Automate Plane Airfoil Design}
+{Davis, CA}
+{} % {Mar 2013 - Apr 2013}
+{C, Fortran}
+{\begin{tightitemize}
+\item[] Optimized the design parameters of an airfoil using simulated
+natural selection of a pool of airfoils with a drag model as a fitness function
+\end{tightitemize}}
+
+%------------------------------------------------
+
+% \projectsubsection{UCSD Rocket Club (Co-founder)}
+% {San Diego, CA}
+% {Sep 2011 – June 2012}
+% {Arduino, C, Matlab}
+% {\begin{tightitemize}
+% \item[] Designed and built engine and nozzle to perform well under supersonic
+% speeds. Machined the injector plate from scratch.
+% \end{tightitemize}}
+
+%------------------------------------------------
+% Education
+%------------------------------------------------
+\section{Education}
+\jgsectionline
+
+\schoolsubsection{UC Davis}
+{Jun 2015}
+{MS Computer Science (Machine Learning)\\
+MS Mechanical Engineering (Dynamics and Robotics)}
+% {Cum. GPA: 3.755/4.0}
+
+\schoolsubsection{UC San Diego}
+{September 2012}
+{BS Aerospace Engineering/ Mathematics minor}
+% {Cum. GPA: 3.24/4.0, Major GPA: 3.42/4.0}
+
+%------------------------------------------------
+% Coursework
+%------------------------------------------------
+
+% \skillssubsection{Coursework}
+% {%Computer Science
+% Advanced Machine Learning;
+% Algorithm Design;
+% Advanced Programming Languages;
+% Computer Vision;
+% Artificial Intelligence;
+% Parallel Programming;
+% Data and Machine Structures;
+% Computer Architecture;
+% Operating Systems;
+% %Robotics
+% Autonomous Robotics;
+% Advanced Dynamics;
+% Modeling \& Simulation of Mech. Systems;
+% Mechatronic Systems Design;
+% %Math
+% Network Theory;
+% Probability \& Stochastic Processes;
+% Numerical Optimization;
+% Mathematical Reasoning
+% }
+%------------------------------------------------
+% Awards
+%------------------------------------------------
+
+% \section{Awards}
+
+% \begin{tabular}{rll}
+% Level 2 Project Euler
+%
+% \end{tabular}
+
+% \sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Societies
+%------------------------------------------------
+
+% \section{Societies}
+
+% \begin{tabular}{rll}
+%
+% \end{tabular}
+
+% \sectionspace % Some whitespace after the section
+
+%-------------------------------------------------------------------------------
+
+%\end{minipage} % The end of the right column
+
+\pagenumbering{gobble}
+
+%-------------------------------------------------------------------------------
+% SECOND PAGE (EXAMPLE)
+%-------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+% The left column takes up 33% of the text width of the page
+%\begin{minipage}[t]{0.33\textwidth}
+
+
+%\section{Example Section}
+
+%\end{minipage} % The end of the left column
+%\hfill
+% The right column takes up 66% of the text width of the page
+%\begin{minipage}[t]{0.66\textwidth}
+
+%\section{Example Section 2}
+
+%\end{minipage} % The end of the right column
+
+%-------------------------------------------------------------------------------
+
+\end{document}

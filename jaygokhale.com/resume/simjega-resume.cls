@@ -41,7 +41,7 @@
 
 \def \jgwritingfont {
   \fontspec[Path = fonts/lato/]{Lato-Lig}
-  \fontsize{10pt}{13pt}}
+  \fontsize{11pt}{13pt}}
 
 \def \jgsectionfont {
   \fontspec[Path = fonts/lato/]{Lato-Bol}
@@ -164,8 +164,8 @@ Last Updated on \today % Last Updated text
 
 \newcommand{\subsectionspace}{\vspace{5.5pt}}
 
-
-\newcommand{\descript}[1]{ % Used for describing the subsection either on the same line or underneath
+% Used for describing the subsection either on the same line or underneath
+\newcommand{\descript}[1]{ 
   \color{subheadings}
   \raggedright
   \jgwritingfont
@@ -217,9 +217,9 @@ Last Updated on \today % Last Updated text
   \normalfont}
 
 %Title of organization, Title of position, Location, Dates, List, Languages Used
-\newcommand{\experiencesubsection}[6]{
+\newcommand{\experiencesubsection}[7]{
   \subsectionspace
-  \raggedrightandleft{\jgsubsectionfont}{#1 | #2 \languagesused{#5}}{\jgdatesfont}{#4}
+  \raggedrightandleft{\jgsubsectionfont}{#1 | #7 | #2}{\jgdatesfont}{#4}
   \jgwritingfont
   \selectfont{#6}
   \subsectionspace
@@ -248,7 +248,7 @@ Last Updated on \today % Last Updated text
   \color{subheadings}
   \raggedright
   \jglistfont
-  \itemsep2pt
+  \itemsep3pt
   \parskip0pt
   \parsep0pt}
 {\end{itemize}\vspace{-\topsep}}

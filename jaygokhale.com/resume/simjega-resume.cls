@@ -227,8 +227,7 @@ Last Updated on \today % Last Updated text
 
 \newcommand{\skillssubsection}[2]{
   \subsectionspace
-  \jgsubsubsectionfont
-  \selectfont{#1}
+  \raggedrightandleft{\jgsubsectionfont}{#1}{}
   \normalfont
   \jgwritingfont
   \selectfont{#2}

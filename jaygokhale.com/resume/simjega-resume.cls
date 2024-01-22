@@ -217,9 +217,9 @@ Last Updated on \today % Last Updated text
   \normalfont}
 
 %Title of organization, Title of position, Location, Dates, List, Languages Used
-\newcommand{\experiencesubsection}[6]{
+\newcommand{\experiencesubsection}[7]{
   \subsectionspace
-  \raggedrightandleft{\jgsubsectionfont}{#1 | #2 \languagesused{#5}}{\jgdatesfont}{#4}
+  \raggedrightandleft{\jgsubsectionfont}{#1 | #7 | #2}{\jgdatesfont}{#4}
   \jgwritingfont
   \selectfont{#6}
   \subsectionspace
